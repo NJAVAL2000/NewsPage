@@ -14,7 +14,7 @@
   
   .card {
     width: 20rem !important;
-    background: black;
+    background-color:hsl(240, 100%, 5%);
     color: #ffff !important;
     height: 500px;
     padding: 15px;
@@ -33,5 +33,42 @@
       font-size: 12px;
       margin-top: -15px;
       margin-bottom: 30px;
+  }
+
+  .card-subtitle:hover{
+    color: hsl(35, 77%, 62%) !important;
+  }
+  
+  .Container2{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .description{
+    width: 60%;
+    padding-left: 5rem;
+    margin-right: 28px;
+  }
+
+ 
+  .btn:hover{
+    background-color: hsl(35, 77%, 62%) !important;
+  }
+  
+  .desc{
+   color: hsl(236, 13%, 42%) !important;
+   font-weight: 300;
+   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+
+  .titleDesc{
+    font-weight: 800;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 3.2em;
+    line-height: 1 !important;
+    width: 35%;
   }
   

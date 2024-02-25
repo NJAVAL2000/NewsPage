@@ -1,0 +1,33 @@
+
+.card1{
+    background: #ffffff;
+    box-shadow: 5px 5px 10px 2px #f3efe5;
+    border-radius: 10px;
+    padding: 10px 0px 15px 5px;
+}
+
+img1{
+    height: 150px !important;
+}
+
+.content{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.top-desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.topTitle{
+    color:hsl(240, 100%, 5%)
+}
+
+.desc-new{
+    color:hsl(236, 13%, 42%)
+}
+
+/* .top-dec-num{
+
+} */

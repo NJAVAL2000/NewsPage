@@ -34,7 +34,8 @@ body {
   /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
-  padding-left: 30px;
+  /* padding-left: 30px; */
+  margin-left: 6rem;
 
 }
 

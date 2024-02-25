@@ -1,6 +1,7 @@
 import React from "react";
 import heroimage from "../assets/image-web-3-desktop.jpg";
 import "./NewsHome.css";
+import TopNews from "./TopNews";
 
 function NewsHome(props) {
   return (
@@ -10,11 +11,18 @@ function NewsHome(props) {
           <div className="heroImage">
             <img width="100%" src={heroimage}></img>
           </div>
-          <div>
-            <div className="Container2">
-              <h3>Container2</h3>
+            <div className="Container2 my-4 mx-2">
+              <h1 className="titleDesc">The Bright Future of Web 3.0?</h1>
+              <div className="description">
+                <div className="desc">
+                  <p style={{marginBottom: "2rem", borderRadius:"2px"}}>We dive into the next evolution of the web that claims to put the power of the platforms
+                 back into the hands of the people.
+                  But is it really fulfilling its promise?</p>
+                </div>
+                <button type="button" className="btn btn-dark">Read More</button>
+              </div>
             </div>
-          </div>
+        
         </div>
         <div className="sidecontainer">
           <div className="card" style={{width: "18rem"}}>
@@ -46,6 +54,9 @@ function NewsHome(props) {
           </div>
         </div>
       </div>
+    
+        <TopNews></TopNews>
+    
     </>
   );
 }
